@@ -38,13 +38,6 @@
 
 ---
 
-## 📊 GitHub Stats
-
-![Venkata's GitHub stats](https://github-readme-stats.vercel.app/api?username=venkata2894&show_icons=true&theme=github_dark&hide_border=true&count_private=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=venkata2894&layout=compact&theme=github_dark&hide_border=true)
-
----
-
 ## 📫 Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/venkata-sai-mekala-96209a16a/)
