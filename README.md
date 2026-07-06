@@ -1,45 +1,79 @@
-# Hi, I'm Venkata Sai Mekala 👋
+<div align="center">
 
-**AI Product & Business Analyst** — I design and deliver enterprise AI solutions: RAG pipelines, agentic workflows, and MCP-based integrations for clients in government, defense, BFSI, and healthcare.
+![Knowledge Infrastructure Command Center](assets/banner.svg)
 
-- 🔭 Currently working on: LLM evaluation frameworks, agentic automation, and AI application security (adversarial ML, model supply chain, MLSecOps)
-- 🏢 AI Analyst at **VividMinds Technologies** (Anthropic Claude Partner Network member)
-- 🌱 Exploring: knowledge graphs with LLMs, post-quantum cryptography, multi-agent orchestration
-- 📍 Hyderabad, India
+<br>
 
----
+*I design **structured AI systems** — built from real product understanding and customer requirements, with observability, metrics, and traceability engineered in from day one.*
 
-## 🚀 Featured Projects
+</div>
 
-| Project | What it does | Stack |
+<br>
+
+## ▍ HOW I BUILD
+
+```
+PRODUCT UNDERSTANDING → CUSTOMER REQUIREMENTS → STRUCTURED SYSTEM DESIGN → OBSERVABLE AI EXECUTION
+```
+
+I work at the intersection of **Product Architecture, Agentic AI, Digital Adoption, RAG systems, Enterprise Automation, and Data Intelligence**. My focus: designing systems that understand how software, workflows, and organizations actually operate — then turning that knowledge into guidance, automation, analytics, and AI execution layers.
+
+I don't build black-box autonomous agents. Every AI system I design runs in a **structured flow** — defined stages, measurable outputs, full traceability. Production AI should be as auditable as any other enterprise system.
+
+<br>
+
+## ▍ WHAT I BUILD
+
+**Knowledge Infrastructure** — systems that capture product behavior, workflow context, documentation, user journeys, and operational knowledge, then make it usable by humans and AI agents.
+
+**Structured Agentic Systems** — orchestrated multi-agent workflows, autonomous QA agents, crawler-based learning systems, and AI execution pipelines — with observability, metrics, and evals built into every stage.
+
+**Digital Adoption Platforms** — guidance engines, walkthroughs, checklists, onboarding flows, drift detection, and product-learning layers for enterprise software.
+
+**Data & Decision Intelligence** — dashboards, KPI systems, analytics workflows, SQL/Python pipelines, and BI solutions for decision-making.
+
+<br>
+
+## ▍ SIGNATURE PROJECTS
+
+| System | Function | Status |
 |---|---|---|
-| [knowledge-graph-llms](https://github.com/venkata2894/knowledge-graph-llms) | Building and querying knowledge graphs using LLMs | Python |
-| [AI_Security_Research](https://github.com/venkata2894/AI_Security_Research) | Research on the full ML system attack surface — adversarial ML, model supply chain, MLSecOps | Research |
-| [Synapse_OS](https://github.com/venkata2894/Synapse_OS) | *(one line about what Synapse OS does — edit me)* | TypeScript |
-| [wpi-inflation-kpi-command-center](https://github.com/venkata2894/wpi-inflation-kpi-command-center) | KPI command center for tracking WPI inflation indicators | Python |
-| [Universal-Text-Translator-Steganography-Toolkit](https://github.com/venkata2894/Universal-Text-Translator-Steganography-Toolkit) | Web tool to transform, encode, hide, and stylize text across 50+ languages, scripts, and ciphers | Web |
+| **GuideNow Intelligence Layer** | Digital Adoption and product-learning system — understands software flows, guides users in-app, and feeds contextual product knowledge to AI agents | Private |
+| **[Synapse_OS](https://github.com/venkata2894/Synapse_OS)** | Multi-agent operations platform — coordinates AI agents, task workflows, memory, handovers, evaluations, and project execution | Public |
+| **Scout Agent** | Autonomous QA agent — tests guide installation, rendering, user navigation, and digital adoption behavior across web applications | Private |
+| **[WPI Inflation KPI Command Center](https://github.com/venkata2894/wpi-inflation-kpi-command-center)** | Data intelligence over open economic data — inflation trends, drivers, and KPI-level insights | Public |
 
-> 🔒 I also build client-facing systems that live in private repos — enterprise RAG, LLM evals, natural-language analytics (DuckDB + LLM), and agentic testing frameworks.
+<sub>More public work: [knowledge-graph-llms](https://github.com/venkata2894/knowledge-graph-llms) · [AI_Security_Research](https://github.com/venkata2894/AI_Security_Research) · [Universal-Text-Translator-Steganography-Toolkit](https://github.com/venkata2894/Universal-Text-Translator-Steganography-Toolkit)</sub>
 
----
+<br>
 
-## 🛠️ Skills & Tools
+## ▍ CORE STACK
 
-**AI / LLM:** RAG · Agentic Workflows · MCP (Model Context Protocol) · Prompt Engineering · LLM Evals · Claude API
-**Languages:** Python · TypeScript · JavaScript · SQL (PostgreSQL)
-**Business Analysis:** SRS/BRD Documentation · Requirements Engineering · Gap Analysis · UAT
-**Platforms:** Quixy (No-Code) · Claude Code · Figma · Canva
+| Capability | Tools |
+|---|---|
+| **AI & Agents** | LLMs · RAG · GraphRAG · LangChain · Agentic Workflows · Prompt Engineering · Vector Search · LLM Evals |
+| **Engineering** | Python · FastAPI · Flask · Next.js · Playwright · SQL · DuckDB · Streamlit |
+| **Knowledge & Data** | Neo4j · FAISS · Power BI · Bold BI · Ontologies · Semantic Modeling · Workflow Mapping |
+| **Product & Strategy** | Product Architecture · Requirement Analysis · Solution Design · Stakeholder Management · Enterprise Automation |
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude_API-D97757?style=flat&logo=anthropic&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
+<br>
 
----
+## ▍ CURRENT FOCUS
 
-## 📫 Connect
+Exploring how organizations can build a **living representation of their workflows, software behavior, and operational knowledge** — so humans can adapt faster and AI agents can execute more safely, with every action observable and traceable.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/venkata-sai-mekala-96209a16a/)
+<br>
 
-*Open to conversations about enterprise AI, agentic systems, and AI security.*
+## ▍ PHILOSOPHY
+
+> The future of enterprise AI is not only about smarter models.
+> It is about building structured knowledge layers that help humans and agents understand how work actually happens.
+
+<br>
+
+## ▍ CONNECT
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-venkata--sai--mekala-22D3EE?style=flat-square&labelColor=0A1226&logo=linkedin&logoColor=22D3EE)](https://www.linkedin.com/in/venkata-sai-mekala-96209a16a/)
+[![Email](https://img.shields.io/badge/Email-add_your_email-4ADE80?style=flat-square&labelColor=0A1226&logo=gmail&logoColor=4ADE80)](#)
+
+<sub>Open to conversations about structured AI systems, knowledge infrastructure, and enterprise automation.</sub>
