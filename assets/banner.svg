@@ -1,0 +1,119 @@
+<svg viewBox="0 0 1280 400" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', system-ui, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050A16"/>
+      <stop offset="0.6" stop-color="#0A1226"/>
+      <stop offset="1" stop-color="#0D1530"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.15"/>
+      <stop offset="0.5" stop-color="#22D3EE" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0.5"/>
+    </linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#22D3EE" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- background -->
+  <rect width="1280" height="400" fill="url(#bg)"/>
+  <rect width="1280" height="400" fill="url(#grid)"/>
+
+  <!-- corner HUD brackets -->
+  <g stroke="#22D3EE" stroke-width="2" fill="none" stroke-opacity="0.7">
+    <path d="M 24 48 L 24 24 L 48 24"/>
+    <path d="M 1232 24 L 1256 24 L 1256 48"/>
+    <path d="M 24 352 L 24 376 L 48 376"/>
+    <path d="M 1256 352 L 1256 376 L 1232 376"/>
+  </g>
+
+  <!-- constellation decoration, top right -->
+  <g stroke="#8B5CF6" stroke-opacity="0.3" stroke-width="1">
+    <line x1="980" y1="70" x2="1060" y2="110"/>
+    <line x1="1060" y1="110" x2="1140" y2="72"/>
+    <line x1="1060" y1="110" x2="1105" y2="165"/>
+    <line x1="980" y1="70" x2="1010" y2="150"/>
+    <line x1="1010" y1="150" x2="1105" y2="165"/>
+  </g>
+  <g fill="#8B5CF6" fill-opacity="0.8">
+    <circle cx="980" cy="70" r="3"/>
+    <circle cx="1060" cy="110" r="4"/>
+    <circle cx="1140" cy="72" r="3"/>
+    <circle cx="1010" cy="150" r="3"/>
+    <circle cx="1105" cy="165" r="3.5"/>
+  </g>
+
+  <!-- status indicator -->
+  <g font-family="ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="12" letter-spacing="3">
+    <circle cx="1054" cy="43" r="4" fill="#4ADE80">
+      <animate attributeName="fill-opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="1068" y="48" fill="#4ADE80" fill-opacity="0.9">SYSTEMS ONLINE</text>
+    <text x="1068" y="70" fill="#6E82A8" font-size="10" letter-spacing="2">METRICS ▸ TRACES ▸ EVALS</text>
+  </g>
+
+  <!-- headline block -->
+  <text x="72" y="92" font-family="ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="14" letter-spacing="5" fill="#22D3EE">// KNOWLEDGE INFRASTRUCTURE — COMMAND CENTER</text>
+  <text x="72" y="150" font-size="46" font-weight="700" letter-spacing="2" fill="#F1F6FC">VENKATA SAI MEKALA</text>
+  <text x="72" y="192" font-size="21" fill="#9DB2D0">Building Knowledge Infrastructure for Human + AI Workflows</text>
+  <text x="72" y="228" font-family="ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13" letter-spacing="2" fill="#6E82A8">PRODUCT ARCHITECTURE · STRUCTURED AI WORKFLOWS · OBSERVABILITY · RAG · ENTERPRISE AUTOMATION</text>
+
+  <!-- pipeline connections -->
+  <g>
+    <line x1="146" y1="308" x2="354" y2="308" stroke="url(#flow)" stroke-width="2"/>
+    <line x1="406" y1="308" x2="614" y2="308" stroke="url(#flow)" stroke-width="2"/>
+    <line x1="666" y1="308" x2="874" y2="308" stroke="url(#flow)" stroke-width="2"/>
+    <line x1="926" y1="308" x2="1134" y2="308" stroke="url(#flow)" stroke-width="2"/>
+    <!-- animated data pulses -->
+    <circle r="3.5" cy="308" fill="#22D3EE" filter="url(#glow)">
+      <animate attributeName="cx" values="146;354" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.5" cy="308" fill="#22D3EE" filter="url(#glow)">
+      <animate attributeName="cx" values="406;614" dur="2.4s" begin="0.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.5" cy="308" fill="#8B5CF6" filter="url(#glow)">
+      <animate attributeName="cx" values="666;874" dur="2.4s" begin="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.5" cy="308" fill="#4ADE80" filter="url(#glow)">
+      <animate attributeName="cx" values="926;1134" dur="2.4s" begin="1.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- pipeline nodes -->
+  <g fill="none" stroke-width="2">
+    <circle cx="120" cy="308" r="24" stroke="#22D3EE"/>
+    <circle cx="120" cy="308" r="7" fill="#22D3EE" stroke="none"/>
+    <circle cx="380" cy="308" r="24" stroke="#8B5CF6"/>
+    <circle cx="380" cy="308" r="7" fill="#8B5CF6" stroke="none"/>
+    <circle cx="640" cy="308" r="24" stroke="#22D3EE"/>
+    <circle cx="640" cy="308" r="7" fill="#22D3EE" stroke="none"/>
+    <circle cx="900" cy="308" r="24" stroke="#8B5CF6"/>
+    <circle cx="900" cy="308" r="7" fill="#8B5CF6" stroke="none"/>
+    <circle cx="1160" cy="308" r="24" stroke="#4ADE80"/>
+    <circle cx="1160" cy="308" r="7" fill="#4ADE80" stroke="none"/>
+  </g>
+
+  <!-- knowledge-graph satellites on node 2 -->
+  <g stroke="#8B5CF6" stroke-opacity="0.5" stroke-width="1">
+    <line x1="380" y1="284" x2="358" y2="256"/>
+    <line x1="380" y1="284" x2="404" y2="252"/>
+    <line x1="404" y1="252" x2="358" y2="256"/>
+  </g>
+  <g fill="#8B5CF6">
+    <circle cx="358" cy="256" r="2.5"/>
+    <circle cx="404" cy="252" r="2.5"/>
+  </g>
+
+  <!-- node labels -->
+  <g font-family="ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="11" letter-spacing="2" text-anchor="middle" fill="#9DB2D0">
+    <text x="120" y="356">HUMAN WORKFLOWS</text>
+    <text x="380" y="356">KNOWLEDGE GRAPH</text>
+    <text x="640" y="356">STRUCTURED AI FLOWS</text>
+    <text x="900" y="356">PRODUCT GUIDANCE</text>
+    <text x="1160" y="356">ENTERPRISE OUTCOMES</text>
+  </g>
+</svg>
